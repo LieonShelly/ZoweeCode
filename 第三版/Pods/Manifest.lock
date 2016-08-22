@@ -1,0 +1,63 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - GPUImage (0.1.7)
+  - HexColors (4.0.0)
+  - IQKeyboardManager (4.0.4)
+  - Masonry (1.0.1)
+  - MJExtension (3.0.10)
+  - MJRefresh (3.1.9)
+  - pop (1.0.9)
+  - SDAutoLayout (2.1.2)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - SVProgressHUD (2.0.3)
+  - SwipeBack (1.1.0)
+  - TYAlertController (1.1.6)
+  - TYAttributedLabel (2.6.1)
+  - UITableView+FDTemplateLayoutCell (1.4)
+  - YYKit (1.0.7):
+    - YYKit/no-arc (= 1.0.7)
+  - YYKit/no-arc (1.0.7)
+
+DEPENDENCIES:
+  - FMDB
+  - GPUImage
+  - HexColors
+  - IQKeyboardManager
+  - Masonry
+  - MJExtension
+  - MJRefresh
+  - pop
+  - SDAutoLayout
+  - SDWebImage
+  - SVProgressHUD
+  - SwipeBack
+  - TYAlertController
+  - TYAttributedLabel
+  - UITableView+FDTemplateLayoutCell
+  - YYKit
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  HexColors: 5f95843ef89aff6a72e1fd3a8ebabf205cc43379
+  IQKeyboardManager: 4a6f83b540283c2645aaeba2bd8dc0f09b5c77f8
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  MJRefresh: c5f1f1653e5a1b932c90f78074f2bc86f3f9bd5e
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SDAutoLayout: 4910758003bbb043003700915b00f53fbc2bf512
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  SwipeBack: 45a42c333b7b9657b9f02cf19673339b3a006195
+  TYAlertController: dfc58e9950d30f255f13c7e578496ec0cc9f0ef5
+  TYAttributedLabel: 4785820dc8d7935446f49f1de4daa0f99ebcba8a
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+  YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
+
+PODFILE CHECKSUM: 54ca426844b615fe55dbe76b2ce8179ca7f44144
+
+COCOAPODS: 1.0.1

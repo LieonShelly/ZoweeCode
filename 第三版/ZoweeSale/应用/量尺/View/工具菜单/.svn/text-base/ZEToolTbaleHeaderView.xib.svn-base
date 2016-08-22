@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZEToolTbaleHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="icon_wall" translatesAutoresizingMaskIntoConstraints="NO" id="TlS-K6-Bua">
+                    <rect key="frame" x="29" y="11" width="23" height="23"/>
+                    <color key="backgroundColor" red="1" green="0.43707251349999998" blue="0.092842596279999995" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="墙" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nl0-YF-35a" userLabel="大标题">
+                    <rect key="frame" x="72" y="12" width="17" height="21"/>
+                    <color key="backgroundColor" red="0.86274509799999999" green="0.0" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Nl0-YF-35a" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="0C6-n7-shj"/>
+                <constraint firstItem="TlS-K6-Bua" firstAttribute="centerY" secondItem="Nl0-YF-35a" secondAttribute="centerY" id="Iyy-Xu-btL"/>
+                <constraint firstItem="Nl0-YF-35a" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="a3m-9w-F7Z"/>
+                <constraint firstItem="Nl0-YF-35a" firstAttribute="leading" secondItem="TlS-K6-Bua" secondAttribute="trailing" constant="20" id="gpe-ic-jSL"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconImageView" destination="TlS-K6-Bua" id="WaH-nN-v7O"/>
+                <outlet property="titleLable" destination="Nl0-YF-35a" id="yOz-PP-f2L"/>
+            </connections>
+            <point key="canvasLocation" x="214" y="355.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_wall" width="23" height="23"/>
+    </resources>
+</document>

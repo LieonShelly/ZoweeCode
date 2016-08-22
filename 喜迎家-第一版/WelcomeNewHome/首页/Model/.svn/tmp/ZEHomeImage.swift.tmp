@@ -1,0 +1,57 @@
+//
+//  ZEHomeImage.swift
+//  WelcomeNewHome
+//
+//  Created by lieon on 16/7/14.
+//  Copyright © 2016年 TH. All rights reserved.
+//
+
+import UIKit
+import ObjectMapper
+
+class ZEHomeImage: Reflect {
+
+    /// 	String	 图片路径
+    var ImagePath:String?
+    
+    ///  	String	图片说明
+    var ImageRemark:String?
+    
+    /// UpdateCode	Int	更新码
+    var UpdateCode:String?
+    var ImageType:String?
+    
+    
+    
+  class   func  loadIndexImage(param:Dictionary<String,String>, success:((homeImage:ZEHomeImage)->(Void)),failure:((error:NSError)->(Void)))
+    {
+        
+        THNetWorking.sharedInstance.THNetWorkingPost("LoadIndexImg", paramerers: param, success: { (JSON) in
+            
+        let homeImage = ZEHomeImage.mj_objectWithKeyValues(JSON)
+            success(homeImage: homeImage)
+            // 存储更新码
+            let code:NSString = homeImage.UpdateCode! as NSString
+            do{
+               try code.writeToFile(UpdateCodePath, atomically: true, encoding: NSUTF8StringEncoding)
+            }
+            catch{
+                print(error)
+            }
+            }) { (error) in
+            failure(error: error)
+        }
+    }
+    
+     class func getUpdateCode() -> String
+    {
+        do {
+            let updateCode = try NSString(contentsOfFile: UpdateCodePath, encoding: NSUTF8StringEncoding)
+            return updateCode as String
+        }catch{
+            return "0"
+        }
+        
+    }
+    
+}

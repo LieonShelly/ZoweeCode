@@ -1,0 +1,55 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "a7816b31-91c3-0c48-aee5-11686c83d161++8244",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "a7816b31-91c3-0c48-aee5-11686c83d161++8244" : {
+
+    },
+    "a7816b31-91c3-0c48-aee5-11686c83d161++2139" : {
+
+    },
+    "a7816b31-91c3-0c48-aee5-11686c83d161++3751" : {
+
+    },
+    "a7816b31-91c3-0c48-aee5-11686c83d161++4817" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "a7816b31-91c3-0c48-aee5-11686c83d161++8244" : 0,
+    "a7816b31-91c3-0c48-aee5-11686c83d161++2139" : 0,
+    "a7816b31-91c3-0c48-aee5-11686c83d161++3751" : 0,
+    "a7816b31-91c3-0c48-aee5-11686c83d161++4817" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C300F4E0-18F2-4C75-AAF5-13FD6C34EC12",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "a7816b31-91c3-0c48-aee5-11686c83d161++8244" : "%E7%AC%AC%E4%B8%89%E7%89%88\/",
+    "a7816b31-91c3-0c48-aee5-11686c83d161++2139" : "%E7%AC%AC%E4%B8%80%E7%89%88\/",
+    "a7816b31-91c3-0c48-aee5-11686c83d161++3751" : "%E7%AC%AC%E4%BA%8C%E7%89%88\/",
+    "a7816b31-91c3-0c48-aee5-11686c83d161++4817" : "%E9%87%8F%E5%B0%BA\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZoweeSale",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZoweeSale.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.0.2\/svn\/MobileApplicationDevelopment",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a7816b31-91c3-0c48-aee5-11686c83d161++2139"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.0.2\/svn\/MobileApplicationDevelopment",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a7816b31-91c3-0c48-aee5-11686c83d161++3751"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.0.2\/svn\/MobileApplicationDevelopment",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a7816b31-91c3-0c48-aee5-11686c83d161++4817"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.0.2\/svn\/MobileApplicationDevelopment",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a7816b31-91c3-0c48-aee5-11686c83d161++8244"
+    }
+  ]
+}

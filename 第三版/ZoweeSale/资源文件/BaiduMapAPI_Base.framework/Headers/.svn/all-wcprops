@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Base.framework/Headers
+END
+BMKTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 230
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Base.framework/Headers/BMKTypes.h
+END
+BMKVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 232
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Base.framework/Headers/BMKVersion.h
+END
+BMKUserLocation.h
+K 25
+svn:wc:ra_dav:version-url
+V 237
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Base.framework/Headers/BMKUserLocation.h
+END
+BMKGeneralDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 240
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Base.framework/Headers/BMKGeneralDelegate.h
+END
+BMKMapManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 235
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Base.framework/Headers/BMKMapManager.h
+END
+BMKBaseComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 238
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Base.framework/Headers/BMKBaseComponent.h
+END

@@ -1,0 +1,60 @@
+//
+//  ZEHomeViewController.swift
+//  WelcomeNewHome
+//
+//  Created by lieon on 16/7/7.
+//  Copyright © 2016年 Zowee. All rights reserved.
+//
+
+import UIKit
+import HexColors
+class ZEHomeViewController: ZEBaseViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupUI()
+        
+    }
+    // MARK:Events
+    
+     func leftBtnClick1() {
+        print("home")
+        self.navigationController!.pushViewController(ZEPesonalCenterViewController(), animated: true)
+    }
+    
+    func right() {
+       print("right")
+    }
+  
+    // MARK:懒加载
+    private lazy var leftItem: ZELeftBarButonItem = {
+       
+        let leftBarButtonItem = ZELeftBarButonItem()
+        leftBarButtonItem.imageName = "icon_personal"
+        leftBarButtonItem.action = #selector(ZEHomeViewController.leftBtnClick1)
+        return leftBarButtonItem
+    }()
+    
+    private lazy var rightItem:ZERightBarButtonItem = {
+        let rightBarButtonItem = ZERightBarButtonItem()
+        rightBarButtonItem.imageName = "icon_talk"
+        rightBarButtonItem.action = #selector(ZEHomeViewController.right)
+        return rightBarButtonItem
+    }()
+    
+    private lazy var titleitem:ZETitileBarButtonItem = {
+        let iv = UIImageView()
+        iv.image = UIImage(named: "Nav_logo")
+        iv.sizeToFit()
+        return ZETitileBarButtonItem(customView:iv)
+    }()
+    
+    // MARK:内部控制方法
+  private func setupUI()
+    {
+        
+        self.naviBar.backgroundColor = UIColor.hx_colorWithHexRGBAString("129fe6")
+        self.leftBarButtonItem = leftItem
+        self.rightBarButtonItem = rightItem
+        self.titlBarButtonItem = titleitem
+    }
+}

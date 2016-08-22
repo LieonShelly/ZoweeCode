@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "a7816b31-91c3-0c48-aee5-11686c83d161++8244",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "a7816b31-91c3-0c48-aee5-11686c83d161++8244" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "a7816b31-91c3-0c48-aee5-11686c83d161++8244" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ADB4A7C2-DE9C-4E00-ABB9-116FA72B065B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "a7816b31-91c3-0c48-aee5-11686c83d161++8244" : "%E7%AC%AC%E4%B8%89%E7%89%88\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZoweeSale",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZoweeSale.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.0.2\/svn\/MobileApplicationDevelopment",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a7816b31-91c3-0c48-aee5-11686c83d161++8244"
+    }
+  ]
+}

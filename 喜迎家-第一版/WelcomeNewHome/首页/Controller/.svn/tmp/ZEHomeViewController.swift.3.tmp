@@ -1,0 +1,145 @@
+//
+//  ZEHomeViewController.swift
+//  WelcomeNewHome
+//
+//  Created by lieon on 16/7/7.
+//  Copyright © 2016年 Zowee. All rights reserved.
+//
+
+let baseUrl = "http://120.76.78.11:8881"
+import UIKit
+class ZEHomeViewController: ZEBaseViewController,BMKLocationServiceDelegate,BMKGeoCodeSearchDelegate {
+    
+    var imgPathArray = [String]()
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupUI()
+        loadData()
+        addNotifacation()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        mapView.delegate = nil
+    }
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        mapView.delegate = nil
+    }
+    // MARK:Events
+    
+     func leftBtnClick1() {
+        print("home")
+        self.navigationController!.pushViewController(ZEPesonalCenterViewController(), animated: true)
+    }
+    
+    func right() {
+        self.navigationController!.pushViewController(ZEMessageViewController(), animated: true)
+    }
+  
+    // MARK:懒加载
+    
+    
+    private lazy var leftBtn:UIButton = {
+        let leftBtn:UIButton = UIButton.createButton(self, action: #selector(ZEHomeViewController.leftBtnClick1), imageName:"icon_personal")
+            return leftBtn
+    }()
+    
+    private lazy var rightBtn:UIButton = {
+        let rightBtn:UIButton = UIButton.createButton(self, action:#selector(ZEHomeViewController.right), imageName: "icon_talk")
+        return rightBtn
+    }()
+  
+    
+    private lazy var mapView:BMKMapView = {
+      let mapView = BMKMapView()
+        return mapView
+    }()
+    
+    private lazy var collectionView:ZEHomeCollectionView = {
+        let collectionView = ZEHomeCollectionView(frame: CGRectZero, collectionViewLayout: ZEHomeCollectionViewFlowLayout())
+        return collectionView
+    }()
+    
+
+
+    
+    // MARK:内部控制方法
+   private func setupUI()
+    {
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(customView: leftBtn)
+        navigationItem.rightBarButtonItem = UIBarButtonItem(customView: rightBtn)
+        self.title = "喜迎家"
+        view .addSubview(collectionView)
+        collectionView.snp_makeConstraints { (make) in
+            make.left.equalTo(0)
+            make.right.equalTo(0)
+            make.bottom.equalTo(0)
+            make.top.equalTo(0)
+        }
+    }
+    
+ private func loadData()
+    {
+    
+        let ProvinceName:String = ZEUserInfo.shareUserInfo().location!.province
+        let cityName:String = ZEUserInfo.shareUserInfo().location!.city
+        let param = [
+            "Type":"5",
+            "ProvinceName":ProvinceName,
+            "CityName":cityName,
+            "Length":String(ScreenH) ,
+            "Width":String(ScreenW),
+            "NetType":String(THloginMessage.sharedInstance().NetType),
+            "UpdateCode":ZEHomeImage.getUpdateCode(),
+            ]
+        ZEHomeSectionFrameModel.loadHomeSectionFrame(param, success: { (frameArray) -> (Void) in
+<<<<<<< .mine
+            
+=======
+            var array = [String]()
+            for model in frameArray
+            {
+                print(model.sectionHeaderDataArray)
+                for (index, ZEHomeImage) in model.sectionHeaderDataArray.enumerate() {
+                    array.insert(baseUrl + ZEHomeImage.ImagePath!, atIndex: index)
+                }
+            }
+            self.collectionView.imgPathArray = array //headerView的数据源
+            
+>>>>>>> .r2804
+            self.collectionView.dataArray = frameArray
+            }, failure: { (error) -> (Void) in
+                
+        })
+    }
+    
+    func addNotifacation()
+    {
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(ZEHomeViewController.loactionChanged), name: locationChanged, object: nil)
+    }
+    func loactionChanged()
+    {
+        weak var weakSelf = self
+       
+        let alter = UIAlertController(title: nil, message: "是否切换城市", preferredStyle: UIAlertControllerStyle.Alert)
+        let action0 = UIAlertAction(title: "是", style: UIAlertActionStyle.Default, handler: { (action) in
+            weakSelf!.loadData()
+        })
+        let action1 = UIAlertAction(title: "否", style: UIAlertActionStyle.Destructive, handler: { (action) in
+            
+        })
+        alter.addAction(action1)
+        alter.addAction(action0)
+        presentViewController(alter, animated: true, completion: nil)
+            
+      
+    }
+
+    deinit
+    {
+        NSNotificationCenter.defaultCenter().removeObserver(self)
+    }
+}
+

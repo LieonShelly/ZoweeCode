@@ -1,0 +1,102 @@
+//
+//  ZEHomeViewController.swift
+//  WelcomeNewHome
+//
+//  Created by lieon on 16/7/7.
+//  Copyright © 2016年 Zowee. All rights reserved.
+//
+
+import UIKit
+class ZEHomeViewController: ZEBaseViewController,BMKLocationServiceDelegate,BMKGeoCodeSearchDelegate {
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupUI()
+        startLocation()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        mapView.delegate = nil
+    }
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        mapView.delegate = nil
+    }
+    // MARK:Events
+    
+     func leftBtnClick1() {
+        print("home")
+        self.navigationController!.pushViewController(ZEPesonalCenterViewController(), animated: true)
+    }
+    
+    func right() {
+        self.navigationController!.pushViewController(ZEMessageViewController(), animated: true)
+    }
+  
+    // MARK:懒加载
+    
+    
+    private lazy var leftBtn:UIButton = {
+        let leftBtn:UIButton = UIButton.createButton(self, action: #selector(ZEHomeViewController.leftBtnClick1), imageName:"icon_personal")
+            return leftBtn
+    }()
+    
+    private lazy var rightBtn:UIButton = {
+        let rightBtn:UIButton = UIButton.createButton(self, action:#selector(ZEHomeViewController.right), imageName: "icon_talk")
+        return rightBtn
+    }()
+  
+    
+    private lazy var mapView:BMKMapView = {
+      let mapView = BMKMapView()
+        return mapView
+    }()
+    
+    private lazy var collectionView:ZEHomeCollectionView = {
+        let collectionView = ZEHomeCollectionView(frame: CGRectZero, collectionViewLayout: ZEHomeCollectionViewFlowLayout())
+        return collectionView
+    }()
+    
+    // MARK:内部控制方法
+   private func setupUI()
+    {
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(customView: leftBtn)
+        navigationItem.rightBarButtonItem = UIBarButtonItem(customView: rightBtn)
+        self.title = "喜迎家"
+        view .addSubview(collectionView)
+        collectionView.snp_makeConstraints { (make) in
+            make.left.equalTo(0)
+            make.right.equalTo(0)
+            make.bottom.equalTo(0)
+            make.top.equalTo(0)
+        }
+    }
+    
+    private func startLocation()
+    {
+     ZELocateTool.shareLocateTool().startLocation { (provinceName, cityName) in
+        let param = [
+            "Type":"5",
+            "ProvinceName":provinceName,
+            "CityName":cityName,
+            "Length":String(ScreenH) ,
+            "Width":String(ScreenW),
+            "NetType":String(THloginMessage.sharedInstance().NetType),
+            "UpdateCode":ZEHomeImage.getUpdateCode(),
+        ]
+        ZEHomeSectionFrameModel.loadHomeSectionFrame(param, success: { (frameArray) -> (Void) in
+            for model in frameArray
+            {
+                print(model.sectionHeaderDataArray)
+            }
+            self.collectionView.dataArray = frameArray
+            }, failure: { (error) -> (Void) in
+                
+        })
+        }
+    }
+}
+

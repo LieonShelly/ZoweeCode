@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers
+END
+BMKSearchBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 237
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKSearchBase.h
+END
+BMKShareUrlSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 247
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKShareUrlSearchOption.h
+END
+BMKPoiSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 242
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKPoiSearchOption.h
+END
+BMKSuggestionSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 249
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKSuggestionSearchOption.h
+END
+BMKGeocodeType.h
+K 25
+svn:wc:ra_dav:version-url
+V 238
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKGeocodeType.h
+END
+BMKShareURLSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 241
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKShareURLSearch.h
+END
+BMKSearchVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 240
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKSearchVersion.h
+END
+BMKDistrictSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 241
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKDistrictSearch.h
+END
+BMKRouteSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 244
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKRouteSearchOption.h
+END
+BMKPoiSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 236
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKPoiSearch.h
+END
+BMKSuggestionSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 243
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKSuggestionSearch.h
+END
+BMKPoiSearchType.h
+K 25
+svn:wc:ra_dav:version-url
+V 240
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKPoiSearchType.h
+END
+BMKBusLineSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 246
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKBusLineSearchOption.h
+END
+BMKRouteSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 238
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKRouteSearch.h
+END
+BMKGeocodeSearchOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 246
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKGeocodeSearchOption.h
+END
+BMKRouteSearchType.h
+K 25
+svn:wc:ra_dav:version-url
+V 242
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKRouteSearchType.h
+END
+BMKBusLineSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 240
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKBusLineSearch.h
+END
+BMKSearchComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 242
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKSearchComponent.h
+END
+BMKGeocodeSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 240
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Search.framework/Headers/BMKGeocodeSearch.h
+END

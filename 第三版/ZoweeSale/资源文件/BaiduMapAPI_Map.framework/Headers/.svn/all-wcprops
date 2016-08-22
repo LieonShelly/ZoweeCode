@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers
+END
+BMKShape.h
+K 25
+svn:wc:ra_dav:version-url
+V 229
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKShape.h
+END
+BMKOverlayGLBasicView.h
+K 25
+svn:wc:ra_dav:version-url
+V 242
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKOverlayGLBasicView.h
+END
+BMKCircle.h
+K 25
+svn:wc:ra_dav:version-url
+V 230
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKCircle.h
+END
+BMKMultiPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 234
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKMultiPoint.h
+END
+BMKActionPaopaoView.h
+K 25
+svn:wc:ra_dav:version-url
+V 240
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKActionPaopaoView.h
+END
+BMKArclineView.h
+K 25
+svn:wc:ra_dav:version-url
+V 235
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKArclineView.h
+END
+BMKMapView.h
+K 25
+svn:wc:ra_dav:version-url
+V 231
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKMapView.h
+END
+BMKLocationViewDisplayParam.h
+K 25
+svn:wc:ra_dav:version-url
+V 248
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKLocationViewDisplayParam.h
+END
+BMKOverlayView.h
+K 25
+svn:wc:ra_dav:version-url
+V 235
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKOverlayView.h
+END
+BMKArcline.h
+K 25
+svn:wc:ra_dav:version-url
+V 231
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKArcline.h
+END
+BMKOverlay.h
+K 25
+svn:wc:ra_dav:version-url
+V 231
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKOverlay.h
+END
+BMKPolygonView.h
+K 25
+svn:wc:ra_dav:version-url
+V 235
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKPolygonView.h
+END
+BMKOfflineMapType.h
+K 25
+svn:wc:ra_dav:version-url
+V 238
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKOfflineMapType.h
+END
+BMKMapVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 234
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKMapVersion.h
+END
+BMKPointAnnotation.h
+K 25
+svn:wc:ra_dav:version-url
+V 239
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKPointAnnotation.h
+END
+BMKTileLayerView.h
+K 25
+svn:wc:ra_dav:version-url
+V 237
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKTileLayerView.h
+END
+BMKPolylineView.h
+K 25
+svn:wc:ra_dav:version-url
+V 236
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKPolylineView.h
+END
+BMKPolygon.h
+K 25
+svn:wc:ra_dav:version-url
+V 231
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKPolygon.h
+END
+BMKOverlayPathView.h
+K 25
+svn:wc:ra_dav:version-url
+V 239
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKOverlayPathView.h
+END
+BMKTileLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 233
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKTileLayer.h
+END
+BMKPolyline.h
+K 25
+svn:wc:ra_dav:version-url
+V 232
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKPolyline.h
+END
+BMKGroundOverlayView.h
+K 25
+svn:wc:ra_dav:version-url
+V 241
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKGroundOverlayView.h
+END
+BMKGradient.h
+K 25
+svn:wc:ra_dav:version-url
+V 232
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKGradient.h
+END
+BMKGroundOverlay.h
+K 25
+svn:wc:ra_dav:version-url
+V 237
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKGroundOverlay.h
+END
+BMKMapComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 236
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKMapComponent.h
+END
+BMKAnnotationView.h
+K 25
+svn:wc:ra_dav:version-url
+V 238
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKAnnotationView.h
+END
+BMKAnnotation.h
+K 25
+svn:wc:ra_dav:version-url
+V 234
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKAnnotation.h
+END
+BMKPinAnnotationView.h
+K 25
+svn:wc:ra_dav:version-url
+V 241
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKPinAnnotationView.h
+END
+BMKHeatMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 231
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKHeatMap.h
+END
+BMKOfflineMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 234
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKOfflineMap.h
+END
+BMKMapStatus.h
+K 25
+svn:wc:ra_dav:version-url
+V 233
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKMapStatus.h
+END
+BMKCircleView.h
+K 25
+svn:wc:ra_dav:version-url
+V 234
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/BaiduMapAPI_Map.framework/Headers/BMKCircleView.h
+END

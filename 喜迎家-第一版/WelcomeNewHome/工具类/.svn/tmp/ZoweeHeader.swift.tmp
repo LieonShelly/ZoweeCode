@@ -1,0 +1,20 @@
+//
+//  ZoweeHeader.swift
+//  WelcomeNewHome
+//
+//  Created by wanglj on 16/7/8.
+//  Copyright © 2016年 TH. All rights reserved.
+//
+
+import UIKit
+
+let urlStr = "http://120.76.78.11:8881/"
+
+
+let ScreenW = UIScreen.mainScreen().bounds.size.width
+let ScreenH = UIScreen.mainScreen().bounds.size.height
+let BaiDuAK = "Lh4LPLRe3Ykgulf87LVtcEr7Dhj6i5xs"
+let provinceKey = "provinceKey"
+let citykey = "citykey"
+
+        

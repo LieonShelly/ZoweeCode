@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>function</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>编辑尺寸</string>
+		<key>iconName</key>
+		<string>icon_draw</string>
+	</dict>
+	<dict>
+		<key>function</key>
+		<integer>1</integer>
+		<key>title</key>
+		<string>设备测距</string>
+		<key>iconName</key>
+		<string>icon_bluetooth</string>
+	</dict>
+	<dict>
+		<key>function</key>
+		<integer>2</integer>
+		<key>title</key>
+		<string>默认尺寸</string>
+		<key>iconName</key>
+		<string>icon_ depth</string>
+	</dict>
+	<dict>
+		<key>function</key>
+		<integer>3</integer>
+		<key>title</key>
+		<string>左右对调</string>
+		<key>iconName</key>
+		<string>icon_left_right</string>
+	</dict>
+	<dict>
+		<key>function</key>
+		<integer>4</integer>
+		<key>title</key>
+		<string>里外对调</string>
+		<key>iconName</key>
+		<string>icon_inside_outside</string>
+	</dict>
+	<dict>
+		<key>function</key>
+		<integer>5</integer>
+		<key>title</key>
+		<string>拍照批注</string>
+		<key>iconName</key>
+		<string>icon_camera</string>
+	</dict>
+	<dict>
+		<key>function</key>
+		<integer>6</integer>
+		<key>title</key>
+		<string>删除</string>
+		<key>iconName</key>
+		<string>icon_delete</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,171 @@
+//
+//  PrefixHeader.pch
+//  ZoweeSale
+//
+//  Created by wanglj on 16/2/17.
+//  Copyright © 2016年 TH. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import "UIView+SDAutoLayout.h"
+#import "UITableView+SDAutoTableViewCellHeight.h"
+#import "UIColor+system.h"
+#import "MBProgressHUD+NJ.h"
+#import "ZECustomerInfoTool.h"
+#import "MJExtension.h"
+#import "THNetWork.h"
+#import "ZENavigationController.h"
+#import "userManager.h"
+#import "UIView+Extension.h"
+#import "NSObject+HZExtend.h"
+#import "UIView+ShortCut.h"
+#import "UIImage+Image.h"
+#import "CALayer+Extension.h"
+#import "Masonry.h"
+#import "THBaseRequestApi.h"
+
+#endif
+
+#ifndef __OPTIMIZE__
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...) {}
+#endif
+//开发测试地址：http://120.76.78.11:8885/
+//皮阿诺
+#if DEVELOPMENT == 0
+//#define SERVER_URL @"http://157.122.179.34:8885/"
+#define SERVER_URL @"http://120.76.78.11:8885/"
+#define JPushAppKey @"137bea415132d971d3afeece"
+#define BaiduMapAppKey @"9ZehzSMu68Sz1GRP5iHVOSwO"
+#define UMengAppKey @"56f9ea3c67e58e0933001f69"
+#define customerType @"皮阿诺"
+#endif
+//玛格
+#if DEVELOPMENT == 1
+#define SERVER_URL @"http://oa.macio.net:8885/"
+//#define SERVER_URL @"http://120.76.78.11:8885/"
+#define JPushAppKey @"5d5e0ffcbc2529e75c6a3263"
+#define BaiduMapAppKey @"19A7QzHTC5M3Y07qTr7MDKRqTWV9A3mT"
+#define UMengAppKey @"56fde84de0f55a1a6500206e"
+#define customerType @"玛格"
+#endif
+
+//保存用户token
+#define userToken @"usertoken"
+#define userMessage @"userLoaginMessage"
+
+//用户定义
+#define userManagershare [userManager sharedInstance]
+//CrmCustomerInterface类 单例定义
+#define crmCustomerShare [CrmCustomerInterface shareCrmCustomInstance] 
+
+#define weatherString [NSString stringWithFormat:@"%@%@",@"weatherDay",[NSDate stringtodayYandMandD]]
+
+/**
+ *  自定义颜色值
+ */
+
+#define customGreyColor [UIColor colorWithHexString:@"#ebebeb"]
+
+#define customBlueColor [UIColor colorWithHexString:@"#3A9ADA"]
+
+#define hexColorString(string) [UIColor colorWithHexString:string]
+
+#define StrURL(string) [NSURL URLWithString:string]
+
+#define ImageWithName(string) [UIImage imageNamed:string]
+/**
+ *  屏幕高和宽
+ */
+// 屏幕高
+#define SCREEN_HEIGHT         [[UIScreen mainScreen] bounds].size.height
+// 屏幕宽
+#define SCREEN_WIDTH          [[UIScreen mainScreen] bounds].size.width
+// 不同手机适配比例
+#define AdaptationRatioH [[UIScreen mainScreen] bounds].size.height / 667
+// 不同手机适配比例
+#define AdaptationRatioW [[UIScreen mainScreen] bounds].size.width / 375
+
+//是否是3.5寸
+#define IS_SCREEN_35_INCH ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640,960), [[UIScreen mainScreen] currentMode].size) : NO)
+//是否是4寸
+
+#define IS_SCREEN_4_INCH ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+//快速的定义一个weakSelf
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self
+
+
+/**
+ *  可输入字符
+ *
+ *  @return 
+ */
+#define NUMBERS @"0123456789"
+#define kAlphaNum @"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+
+// 自定NSLog
+#ifdef  DEBUG
+#define lieonLog(...)   NSLog(__VA_ARGS__)
+#else
+#define lieonLog(...)
+#endif
+
+// 与通知相关的
+// 通知中心
+#define ZENotificationCenter [NSNotificationCenter defaultCenter]
+#define ZEAddobsever(methodName,noteName)  [ZENotificationCenter addObserver:self selector:@selector(methodName) name:noteName object:nil]
+#define ZERemoveObsever [ZENotificationCenter removeObserver:self]
+#define canilMark @"canilMark"
+
+#define markValueChanged @"markValueChanged"
+#define  markArrowClicked @"markArrowClicked"
+
+// hexColorString(@"2388c2")
+#define arrowColor [UIColor blueColor]
+
+// customer相关的
+#define ZECustomerGlobalBackgroudColor [UIColor colorWithHexString:@"f5f2f3"];
+
+// 极光推送相关的参数
+
+
+#define zeAppChannel  @"enterpriseWeb"
+
+// 与画图相关的
+// 保留两位小数
+#define  str(value)  [NSString stringWithFormat:@"%.2f",value]
+#define  str1(value)  [NSString stringWithFormat:@"%.1f",value]
+
+#define  TwoBitNumber(value) ( [NSNumber numberWithFloat:str(value).floatValue])
+#define  TWoBitCGFloat(value) (str(value).floatValue)
+
+#define  OneBitNumber(value) ( [NSNumber numberWithFloat:str1(value).floatValue])
+
+#define pointValue(point) [NSValue valueWithCGPoint:CGPointMake(TWoBitCGFloat(point.x), TWoBitCGFloat(point.y))]
+
+/** 0.1pix - > 1mm */
+#define convertRatio 10
+
+// 颜色
+#define lieonColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define lieonColorRGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+
+// 随机色
+#define lieonRandomColor lieonColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+
+
+#define customerDetailItemPath [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject] stringByAppendingPathComponent:@"customerDetailItem.data"]
+
+#endif /* PrefixHeader_pch */
+
+

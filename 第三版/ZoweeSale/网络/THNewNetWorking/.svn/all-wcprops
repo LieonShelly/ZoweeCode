@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/MobileApplicationDevelopment/!svn/ver/2788/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking
+END
+THBaseRequestApi.h
+K 25
+svn:wc:ra_dav:version-url
+V 201
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/THBaseRequestApi.h
+END
+THloginMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 199
+/svn/MobileApplicationDevelopment/!svn/ver/2614/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/THloginMessage.h
+END
+THuploadApi.h
+K 25
+svn:wc:ra_dav:version-url
+V 196
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/THuploadApi.h
+END
+THBaseRequestApi.m
+K 25
+svn:wc:ra_dav:version-url
+V 201
+/svn/MobileApplicationDevelopment/!svn/ver/2788/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/THBaseRequestApi.m
+END
+THloginMessage.m
+K 25
+svn:wc:ra_dav:version-url
+V 199
+/svn/MobileApplicationDevelopment/!svn/ver/2614/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/THloginMessage.m
+END
+THuploadApi.m
+K 25
+svn:wc:ra_dav:version-url
+V 196
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/THuploadApi.m
+END
+THNetworkPrivate.h
+K 25
+svn:wc:ra_dav:version-url
+V 201
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/THNetworkPrivate.h
+END
+THNetWorkBaseModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/THNetWorkBaseModel.h
+END
+THNetworkPrivate.m
+K 25
+svn:wc:ra_dav:version-url
+V 201
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/THNetworkPrivate.m
+END
+THNetWorkBaseModel.m
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/THNetWorkBaseModel.m
+END

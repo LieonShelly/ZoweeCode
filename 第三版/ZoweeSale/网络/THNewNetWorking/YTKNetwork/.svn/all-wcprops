@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 193
+/svn/MobileApplicationDevelopment/!svn/ver/2788/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork
+END
+YTKNetworkAgent.h
+K 25
+svn:wc:ra_dav:version-url
+V 211
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKNetworkAgent.h
+END
+YTKBatchRequestAgent.h
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKBatchRequestAgent.h
+END
+YTKChainRequestAgent.h
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKChainRequestAgent.h
+END
+YTKNetworkAgent.m
+K 25
+svn:wc:ra_dav:version-url
+V 211
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKNetworkAgent.m
+END
+YTKBatchRequestAgent.m
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKBatchRequestAgent.m
+END
+YTKChainRequestAgent.m
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKChainRequestAgent.m
+END
+YTKNetworkConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKNetworkConfig.h
+END
+YTKBaseRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKBaseRequest.h
+END
+YTKNetworkConfig.m
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKNetworkConfig.m
+END
+YTKNetworkPrivate.h
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKNetworkPrivate.h
+END
+YTKRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 206
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKRequest.h
+END
+YTKBaseRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKBaseRequest.m
+END
+YTKNetworkPrivate.m
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKNetworkPrivate.m
+END
+YTKBatchRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 211
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKBatchRequest.h
+END
+YTKChainRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 211
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKChainRequest.h
+END
+YTKRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 206
+/svn/MobileApplicationDevelopment/!svn/ver/2788/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKRequest.m
+END
+YTKBatchRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 211
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKBatchRequest.m
+END
+YTKChainRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 211
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E7%BD%91%E7%BB%9C/THNewNetWorking/YTKNetwork/YTKChainRequest.m
+END

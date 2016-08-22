@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/MobileApplicationDevelopment/!svn/ver/2544/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/CRM/%E5%AE%A2%E6%88%B7%E8%AF%A6%E7%BB%86/view/customerDetailTable
+END
+ZEcustomerDetailTableView.m
+K 25
+svn:wc:ra_dav:version-url
+V 241
+/svn/MobileApplicationDevelopment/!svn/ver/2544/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/CRM/%E5%AE%A2%E6%88%B7%E8%AF%A6%E7%BB%86/view/customerDetailTable/ZEcustomerDetailTableView.m
+END
+dynamicTableViewCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 236
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/CRM/%E5%AE%A2%E6%88%B7%E8%AF%A6%E7%BB%86/view/customerDetailTable/dynamicTableViewCell.m
+END
+servicePeopleView.h
+K 25
+svn:wc:ra_dav:version-url
+V 233
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/CRM/%E5%AE%A2%E6%88%B7%E8%AF%A6%E7%BB%86/view/customerDetailTable/servicePeopleView.h
+END
+serviceTableViewCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 236
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/CRM/%E5%AE%A2%E6%88%B7%E8%AF%A6%E7%BB%86/view/customerDetailTable/serviceTableViewCell.h
+END
+followTableViewCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 235
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/CRM/%E5%AE%A2%E6%88%B7%E8%AF%A6%E7%BB%86/view/customerDetailTable/followTableViewCell.h
+END
+servicePeopleView.m
+K 25
+svn:wc:ra_dav:version-url
+V 233
+/svn/MobileApplicationDevelopment/!svn/ver/2327/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/CRM/%E5%AE%A2%E6%88%B7%E8%AF%A6%E7%BB%86/view/customerDetailTable/servicePeopleView.m
+END
+detailedListCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 232
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/CRM/%E5%AE%A2%E6%88%B7%E8%AF%A6%E7%BB%86/view/customerDetailTable/detailedListCell.h
+END
+serviceTableViewCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 236
+/svn/MobileApplicationDevelopment/!svn/ver/2327/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/CRM/%E5%AE%A2%E6%88%B7%E8%AF%A6%E7%BB%86/view/customerDetailTable/serviceTableViewCell.m
+END
+followTableViewCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 235
+/svn/MobileApplicationDevelopment/!svn/ver/2455/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/CRM/%E5%AE%A2%E6%88%B7%E8%AF%A6%E7%BB%86/view/customerDetailTable/followTableViewCell.m
+END
+detailedListCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 232
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/CRM/%E5%AE%A2%E6%88%B7%E8%AF%A6%E7%BB%86/view/customerDetailTable/detailedListCell.m
+END
+customerInfoTableViewCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 241
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/CRM/%E5%AE%A2%E6%88%B7%E8%AF%A6%E7%BB%86/view/customerDetailTable/customerInfoTableViewCell.h
+END
+ZECustomerDetailCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 236
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/CRM/%E5%AE%A2%E6%88%B7%E8%AF%A6%E7%BB%86/view/customerDetailTable/ZECustomerDetailCell.h
+END
+customerInfoTableViewCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 241
+/svn/MobileApplicationDevelopment/!svn/ver/2327/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/CRM/%E5%AE%A2%E6%88%B7%E8%AF%A6%E7%BB%86/view/customerDetailTable/customerInfoTableViewCell.m
+END
+ZEcustomerDetailTableView.h
+K 25
+svn:wc:ra_dav:version-url
+V 241
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/CRM/%E5%AE%A2%E6%88%B7%E8%AF%A6%E7%BB%86/view/customerDetailTable/ZEcustomerDetailTableView.h
+END
+dynamicTableViewCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 236
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/CRM/%E5%AE%A2%E6%88%B7%E8%AF%A6%E7%BB%86/view/customerDetailTable/dynamicTableViewCell.h
+END
+ZECustomerDetailCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 236
+/svn/MobileApplicationDevelopment/!svn/ver/2200/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/CRM/%E5%AE%A2%E6%88%B7%E8%AF%A6%E7%BB%86/view/customerDetailTable/ZECustomerDetailCell.m
+END

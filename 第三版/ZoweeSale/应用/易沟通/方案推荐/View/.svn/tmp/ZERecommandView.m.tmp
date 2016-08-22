@@ -1,0 +1,86 @@
+//
+//  ZERecommandView.m
+//  ZoweeSale
+//
+//  Created by lieon on 16/7/12.
+//  Copyright © 2016年 TH. All rights reserved.
+//
+
+#import "ZERecommandView.h"
+#import "ZERecomamndCellLayout.h"
+#import "ZERecommandCollectionViewCell.h"
+
+#import "ZERecommandViewController.h"
+
+@interface ZERecommandView()<UICollectionViewDelegate,UICollectionViewDataSource>
+
+@property (nonatomic ,strong) NSArray * dataArray;
+
+@end
+@implementation ZERecommandView
+
+- (instancetype)init
+{
+
+    ZERecomamndCellLayout * layout = [[ZERecomamndCellLayout alloc]init];
+    self.dataSource = self;
+    self.delegate = self;
+    [self registerNib:[UINib nibWithNibName:@"ZERecommandCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:@"ZERecommandCollectionViewCell"];
+    [self registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"Header"];
+   return  [super initWithFrame:CGRectZero collectionViewLayout:layout];
+}
+
+
+#pragma mark - UICollectionViewDataSource
+
+
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+    return 4;
+      return self.dataArray.count;
+}
+
+- (UICollectionViewCell*)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    ZERecommandCollectionViewCell * cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"ZERecommandCollectionViewCell" forIndexPath:indexPath];
+    cell.backgroundColor = lieonRandomColor;
+//    cell.model = self.dataArray[indexPath.item];
+    return cell;
+}
+
+- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
+{
+    if ([kind isEqualToString:UICollectionElementKindSectionHeader]) {
+        //头视图
+        //(如果满足不了需要那么就定制)
+        UICollectionReusableView *header = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"Header" forIndexPath:indexPath];
+        
+        self.headerView.origin = CGPointMake(80, 0);
+        self.headerView.size = CGSizeMake(header.width -self.headerView.x , header.height);
+        [header addSubview:self.headerView];
+        header.backgroundColor = [UIColor clearColor];
+        return header;
+    }else {
+        //尾视图
+        //复用队列获取
+        UICollectionReusableView *footer = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"Footer" forIndexPath:indexPath];
+        footer.backgroundColor = [UIColor yellowColor];
+        return footer;
+    }
+}
+
+
+
+#pragma mark - getter
+
+- (ZESectionHeaderView *)headerView
+{
+    if (_headerView == nil) {
+        _headerView = [ZESectionHeaderView headerView];
+    }
+    return _headerView;
+}
+
+
+@end

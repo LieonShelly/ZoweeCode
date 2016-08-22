@@ -1,0 +1,28 @@
+platform :ios, '8.0'
+use_frameworks!
+
+def pods
+pod "GPUImage”
+pod "IQKeyboardManager"
+pod "Masonry"
+pod "SDAutoLayout"
+pod "SDWebImage"
+pod "TYAlertController"
+pod "SVProgressHUD"
+pod "UITableView+FDTemplateLayoutCell"
+pod "YYKit"
+pod "TYAttributedLabel"
+pod "MJExtension"
+pod "FMDB"
+pod "HexColors"
+pod "MJRefresh"
+pod "pop"
+pod "SwipeBack"
+end
+target 'PANZoweeSale' do
+    pods
+end
+
+target 'MGZoweeSale' do
+    pods
+end

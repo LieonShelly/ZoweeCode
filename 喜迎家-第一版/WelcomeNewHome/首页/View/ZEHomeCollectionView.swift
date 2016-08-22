@@ -1,0 +1,179 @@
+//
+//  ZEHomeCollectionView.swift
+//  WelcomeNewHome
+//
+//  Created by lieon on 16/7/8.
+//  Copyright © 2016年 TH. All rights reserved.
+//
+
+import UIKit
+
+private let bannerModel = ZEBannerViewModel()
+
+
+
+
+class ZEHomeCollectionView: UICollectionView,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
+    
+    var imgPathArray = [String]()   //轮播图数据源
+    var dataArray:[ZEHomeSectionFrameModel]?{
+        didSet{
+            reloadData()
+        }
+    }
+    
+    lazy var banner: ZYBannerView = {
+        let banner = ZYBannerView()
+        banner.shouldLoop = true
+        banner.autoScroll = true
+        banner.dataSource = bannerModel
+        banner.delegate = bannerModel
+        
+        return banner
+    }()
+  
+    override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
+        super.init(frame: frame, collectionViewLayout: layout)
+        
+        self.dataSource = self
+        self.delegate = self
+        scrollEnabled = true
+        self.alwaysBounceVertical = true
+        bounces = true
+        backgroundColor = UIColor(hexString: "f0eded")
+        
+        
+        registerClass(ZEFullSenceCollectionViewCell.self, forCellWithReuseIdentifier: "ZEFullSenceCollectionViewCell")
+        
+        registerClass(ZEFuncBtnCollectionViewCell.self, forCellWithReuseIdentifier: "ZEFuncBtnCollectionViewCell")
+        
+        registerClass(ZEPackageCollectionViewCell.self, forCellWithReuseIdentifier: "ZEPackageCollectionViewCell")
+        registerClass(UICollectionReusableView.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: "header")
+        registerClass(UICollectionReusableView.self, forSupplementaryViewOfKind: UICollectionElementKindSectionFooter, withReuseIdentifier: "footer")
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+   
+
+}
+
+extension ZEHomeCollectionView
+{
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int
+    {
+        if dataArray != nil {
+            return dataArray!.count
+        }else {
+            return 0
+        }
+       
+        
+    }
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
+    {
+        let frameModel = dataArray![section]
+        return (frameModel.cellDataArray.count)
+       
+    }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell
+    {
+        let frameModel  = dataArray![indexPath.section]
+        
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(frameModel.cellID!, forIndexPath: indexPath)
+        switch frameModel.cellID!
+        {
+        case "ZEFuncBtnCollectionViewCell":
+            (cell as! ZEFuncBtnCollectionViewCell).model = frameModel.cellDataArray[indexPath.item]
+            
+        case "ZEFullSenceCollectionViewCell":
+            (cell as! ZEFullSenceCollectionViewCell).model = frameModel.cellDataArray[indexPath.item]
+        case "ZEPackageCollectionViewCell":
+            (cell as! ZEPackageCollectionViewCell).model = frameModel.cellDataArray[indexPath.item]
+        default: break
+            
+        }
+
+        
+        return cell
+        
+    }
+
+   
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        let frameModel = dataArray![indexPath.section]
+        let homeModel = frameModel.cellDataArray[indexPath.item]
+        
+        
+        let webViewController = ZELoadingWebViewController.init()
+        webViewController.homeModel = homeModel
+        THURLNavigation.pushViewController(webViewController, animated: true)
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
+        return CGSizeZero
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize
+    {
+        let frameModel = dataArray![section]
+        return (frameModel.sectionHeaderSize)
+    }
+ 
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+        let frameModel = dataArray![indexPath.section]
+
+        if frameModel.sectionHeaderDataArray.count != 0 {
+            
+            return frameModel.specialCellSizeArray[indexPath.item]
+        }else
+        {
+            
+            return frameModel.cellSize;
+        }
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat
+    {
+       let frameModel = dataArray![section]
+        return frameModel.minimumLineSpacing
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAtIndex section: Int) -> CGFloat
+    {
+        let frameModel = dataArray![section]
+        return frameModel.minimumInteritemSpacing
+    }
+    
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAtIndex section: Int) -> UIEdgeInsets {
+        
+       let frameModel = dataArray![section]
+        return frameModel.sectionInset
+    }
+    
+    func collectionView(collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, atIndexPath indexPath: NSIndexPath) -> UICollectionReusableView {
+        let kindStr:NSString = kind
+        let frameModel = dataArray![indexPath.section]
+        if kindStr.isEqualToString(UICollectionElementKindSectionHeader) {
+            let header = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: "header", forIndexPath: indexPath)
+            
+            for (index, ZEHomeImage) in frameModel.sectionHeaderDataArray.enumerate() {
+                imgPathArray.insert(ZEHomeImage.ImagePath!, atIndex: index)
+            }
+            if imgPathArray.count != 0{
+                bannerModel.dataArray = imgPathArray
+                banner.frame = CGRectMake(0, 0, ScreenW, header.frame.size.height)
+                header.addSubview(banner)
+            }
+            return header
+        }else{
+            let footer = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: "footer", forIndexPath: indexPath)
+            return footer
+            
+        }
+
+    }
+}

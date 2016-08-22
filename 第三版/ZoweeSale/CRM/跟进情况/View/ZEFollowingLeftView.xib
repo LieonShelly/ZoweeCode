@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZEFollowingLeftView">
+            <rect key="frame" x="0.0" y="0.0" width="34" height="124"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xdZ-qf-aul" userLabel="联系方式图标">
+                    <rect key="frame" x="10" y="50" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="6dO-Lw-XXh"/>
+                        <constraint firstAttribute="width" constant="24" id="lni-8D-Hpl"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2f3-oL-I5M" userLabel="上进度线">
+                    <rect key="frame" x="22" y="0.0" width="1" height="45"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="5eT-fD-KZc"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MSr-j7-XET" userLabel="下进度线">
+                    <rect key="frame" x="22" y="79" width="1" height="45"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="5qm-d2-Ze0"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="2f3-oL-I5M" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0zt-eM-cIc"/>
+                <constraint firstItem="xdZ-qf-aul" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Iac-bC-bls"/>
+                <constraint firstItem="MSr-j7-XET" firstAttribute="top" secondItem="xdZ-qf-aul" secondAttribute="bottom" constant="5" id="Qsr-3z-gr2"/>
+                <constraint firstAttribute="bottom" secondItem="MSr-j7-XET" secondAttribute="bottom" id="RFb-AU-8hI"/>
+                <constraint firstItem="xdZ-qf-aul" firstAttribute="top" secondItem="2f3-oL-I5M" secondAttribute="bottom" constant="5" id="njC-nb-wUa"/>
+                <constraint firstItem="xdZ-qf-aul" firstAttribute="centerX" secondItem="2f3-oL-I5M" secondAttribute="centerX" id="oba-xN-mJM"/>
+                <constraint firstItem="MSr-j7-XET" firstAttribute="centerX" secondItem="xdZ-qf-aul" secondAttribute="centerX" id="tRh-lP-GMy"/>
+                <constraint firstItem="xdZ-qf-aul" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="wjd-MR-56b"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="TypeIDImageView" destination="xdZ-qf-aul" id="E9Z-NE-jRt"/>
+                <outlet property="downLine" destination="MSr-j7-XET" id="zLb-t0-hsZ"/>
+                <outlet property="upLine" destination="2f3-oL-I5M" id="k3t-YT-Hg8"/>
+            </connections>
+            <point key="canvasLocation" x="597" y="97"/>
+        </view>
+    </objects>
+</document>

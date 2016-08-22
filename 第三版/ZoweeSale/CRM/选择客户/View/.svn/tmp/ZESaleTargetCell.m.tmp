@@ -1,0 +1,293 @@
+//
+//  ZESaleTargetCell.m
+//  ZoweeSale
+//
+//  Created by apple on 16/6/23.
+//  Copyright © 2016年 TH. All rights reserved.
+//
+#define actualHeight 667.0 * SCREEN_HEIGHT
+#define actualWidth 375.0 * SCREEN_WIDTH
+#import "ZESaleTargetCell.h"
+#import "ZETargetBtn.h"
+#import "UIButton+Extension.h"
+#import "ZFChart.h"
+#import "THloginMessage.h"
+@interface ZESaleTargetCell()<ZFGenericChartDataSource, ZFBarChartDelegate>
+
+@end
+
+@implementation ZESaleTargetCell
+{
+    UIView * _bgView;
+    ZETargetBtn * _monthTarget;//月指标
+    UIButton * _moreInfoBtn;
+    ZETargetBtn * _targetBtn;//指标
+    UILabel * _targetLab;
+    ZETargetBtn * _dealBtn;//成交
+    UILabel * _dealLab;
+    ZETargetBtn * _paybackBtn;//回款
+    UILabel * _paybackLab;
+    NSString * _bigIcon;//全店icon
+    NSString * _smallIcon;//个人icon
+    NSString * _monthTargetTitle;
+    NSString* _monthTargetColor;
+    ZFBarChart * _barChart;
+}
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    
+}
+
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
+    [super setSelected:selected animated:animated];
+
+    // Configure the view for the selected state
+}
+
+- (void)setup{
+    [super setup];
+    self.selectionStyle = UITableViewCellSelectionStyleNone;
+    self.backgroundColor = hexColorString(@"f5f2f2");
+    _bgView = [UIView new];
+    _bgView.backgroundColor = hexColorString(@"ffffff");
+    _bgView.layer.masksToBounds = YES;
+    _bgView.layer.cornerRadius = 10;
+    [self.contentView addSubview:_bgView];
+    _bgView.sd_layout
+    .topSpaceToView(self.contentView,10)
+    .rightSpaceToView(self.contentView,10)
+    .leftSpaceToView(self.contentView,10)
+    .heightIs(199);
+    
+    _monthTarget = [[ZETargetBtn alloc]init];
+    [_bgView addSubview:_monthTarget];
+    _monthTarget.titleLabel.font = [UIFont systemFontOfSize:14];
+    _monthTarget.sd_layout
+    .topSpaceToView(_bgView,15)
+    .leftSpaceToView(_bgView,15);
+    
+    _moreInfoBtn = [UIButton new];
+    [_bgView addSubview:_moreInfoBtn];
+    [_moreInfoBtn addTarget:self action:@selector(moreInfoBtnClick)];
+    _moreInfoBtn.bgImage = @"Button_arrow_double";
+    _moreInfoBtn.sd_layout
+    .topSpaceToView(_bgView,15)
+    .rightSpaceToView(_bgView,15)
+    .heightIs(12)
+    .widthIs(12);
+    
+    _targetBtn = [[ZETargetBtn alloc]init];
+    [_bgView addSubview:_targetBtn];
+    _targetBtn.titleColor = hexColorString(@"999999");
+    _targetBtn.title = @"指标:";
+    _targetBtn.titleLabel.font = [UIFont systemFontOfSize:13];
+    _targetBtn.sd_layout
+    .topSpaceToView(_monthTarget,20)
+    .leftSpaceToView(_bgView,15)
+    .widthIs([_targetBtn titleSizeWidth] + 15)
+    .heightIs(14);
+    
+    UIButton * editBtn = [UIButton new];
+    [_bgView addSubview:editBtn];
+    editBtn.adjustsImageWhenHighlighted = NO;
+    [editBtn addTarget:self action:@selector(editBtnClick)];
+    editBtn.image = @"icon_edit";
+    editBtn.sd_layout
+    .centerYEqualToView(_targetBtn)
+    .leftSpaceToView(_targetBtn,20)
+    .heightIs(28)
+    .widthIs(28);
+    
+    _targetLab = [UILabel new];
+    [_bgView addSubview:_targetLab];
+    _targetLab.textAlignment = NSTextAlignmentRight;
+    _targetLab.sd_layout
+    .topSpaceToView(editBtn,5)
+    .leftEqualToView(_bgView)
+    .widthIs(115)
+    .heightIs(16);
+    
+    _dealBtn = [[ZETargetBtn alloc]init];
+    [_bgView addSubview:_dealBtn];
+    _dealBtn.titleColor = hexColorString(@"999999");
+    _dealBtn.title = @"成交:";
+    _dealBtn.titleLabel.font = [UIFont systemFontOfSize:13];
+    _dealBtn.sd_layout
+    .topSpaceToView(_targetLab,15)
+    .leftEqualToView(_targetBtn)
+    .widthIs([_targetBtn titleSizeWidth] + 15)
+    .heightIs(14);
+    
+    _dealLab = [UILabel new];
+    [_bgView addSubview:_dealLab];
+    _dealLab.textAlignment = NSTextAlignmentRight;
+    _dealLab.sd_layout
+    .topSpaceToView(_dealBtn,5)
+    .leftEqualToView(_bgView)
+    .widthIs(115)
+    .heightIs(16);
+    
+    _paybackBtn = [[ZETargetBtn alloc]init];
+    [_bgView addSubview:_paybackBtn];
+    _paybackBtn.titleColor = hexColorString(@"999999");
+    _paybackBtn.title = @"回款:";
+    _paybackBtn.titleLabel.font = [UIFont systemFontOfSize:13];
+    _paybackBtn.sd_layout
+    .topSpaceToView(_dealLab,15)
+    .leftEqualToView(_targetBtn)
+    .widthIs([_targetBtn titleSizeWidth] + 15)
+    .heightIs(14);
+    
+    _paybackLab = [UILabel new];
+    [_bgView addSubview:_paybackLab];
+    _paybackLab.textAlignment = NSTextAlignmentRight;
+    _paybackLab.sd_layout
+    .topSpaceToView(_paybackBtn,5)
+    .leftEqualToView(_bgView)
+    .widthIs(115)
+    .heightIs(16);
+    
+    
+    _dealLab.attributedText = [self richTextWithString:0];
+    _paybackLab.attributedText = [self richTextWithString:0];
+}
+
+- (void)layoutSubviews
+{
+    [super layoutSubviews];
+    _monthTarget.titleColor = hexColorString(_monthTargetColor);
+    _monthTarget.title = _monthTargetTitle;
+    _monthTarget.image = _bigIcon;
+    _monthTarget.sd_layout.widthIs([_monthTarget titleSizeWidth] + 20);
+    _targetBtn.image = _smallIcon;
+    _dealBtn.image = _smallIcon;
+    _paybackBtn.image = _smallIcon;
+    
+    if (![_model.TargetMoney isNoEmpty]){
+        _targetLab.attributedText = [self richTextWithString:@"0"];
+    }else{
+        _targetLab.attributedText = [self richTextWithString:[NSString stringWithFormat:@"%@",_model.TargetMoney]];
+    }
+    if (![_model.sumDeal isNoEmpty]){
+        _dealLab.attributedText = [self richTextWithString:@"0"];
+    }else{
+        _dealLab.attributedText = [self richTextWithString:[NSString stringWithFormat:@"%@",_model.sumDeal]];
+    }
+    if (![_model.HuiKuan isNoEmpty]){
+        _paybackLab.attributedText = [self richTextWithString:@"0"];
+    }else{
+        _paybackLab.attributedText = [self richTextWithString:[NSString stringWithFormat:@"%@",_model.HuiKuan]];
+    }
+    
+    //报表
+    CGFloat width = 165;
+    CGFloat x = SCREEN_WIDTH - width - 60;
+    if ([[THloginMessage sharedInstance].DeviceCode hasPrefix:@"iPhone 5"]) {
+         x = SCREEN_WIDTH - width - 30;
+    }
+    CGFloat y = 30;
+    _barChart = [[ZFBarChart alloc]initWithFrame:CGRectMake(x, y, width, width)];
+    _barChart.userInteractionEnabled = NO;
+    [_bgView addSubview:_barChart];
+    [self setupBarChart];
+    //    _barChart.sd_layout
+    //    .rightSpaceToView(_bgView,20)
+    //    .bottomSpaceToView(_bgView,10)
+    //    .heightIs((SCREEN_HEIGHT - NAVIGATIONBAR_HEIGHT)/3)
+    //    .widthIs(175);
+}
+
+//对label显示的文字进行富文本处理
+- (NSMutableAttributedString *)richTextWithString:(NSString *)text{
+    //处理数字格式
+    NSString *str = [text substringWithRange:NSMakeRange(text.length%3, text.length-text.length%3)];
+    NSString *strs = [text substringWithRange:NSMakeRange(0, text.length%3)];
+    for (int  i =0; i < str.length; i =i+3) {
+        NSString *sss = [str substringWithRange:NSMakeRange(i, 3)];
+        strs = [strs stringByAppendingString:[NSString stringWithFormat:@",%@",sss]];
+    }
+    if ([[strs substringWithRange:NSMakeRange(0, 1)] isEqualToString:@","]) {
+        strs = [strs substringWithRange:NSMakeRange(1, strs.length-1)];
+    }
+    //富文本设置文字
+    NSMutableAttributedString * textAttr = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%@元",strs]];
+    [textAttr addAttributes:@{NSForegroundColorAttributeName:hexColorString(@"999999"),NSFontAttributeName:[UIFont systemFontOfSize:18]} range:NSMakeRange(0, strs.length)];
+    [textAttr addAttributes:@{NSForegroundColorAttributeName:hexColorString(@"999999"),NSFontAttributeName:[UIFont systemFontOfSize:12]} range:NSMakeRange(strs.length, 1)];
+    return textAttr;
+}
+
+- (void)setupBarChart{
+    
+    _barChart.dataSource = self;
+    _barChart.delegate = self;
+    _barChart.unit = @"万";
+    _barChart.valueLabelPattern = kPopoverLabelPatternBlank;//无气泡
+    _barChart.isShadow = NO; //无阴影
+    _barChart.unitColor = hexColorString(@"999999");
+    _barChart.axisLineNameColor = hexColorString(@"999999");
+    _barChart.axisLineValueColor = hexColorString(@"999999");
+    _barChart.axisColor = hexColorString(@"999999");
+    //_barChart.isShowSeparate = YES;
+    _barChart.separateColor = hexColorString(@"999999");
+    //_barChart.isAnimated = NO;
+    [_barChart strokePath];
+}
+
+//是否是店铺来确定图标和文字
+- (void)setIsShop:(BOOL)isShop{
+    _isShop = isShop;
+    if (_isShop) {
+        _bigIcon = @"icon_target_year";
+        _smallIcon = @"icon_1";
+        _monthTargetTitle = @"全店本月指标";
+        _monthTargetColor = @"ffb228";
+    }else{
+        _bigIcon = @"icon_target_peraonal";
+        _smallIcon = @"icon_2";
+        _monthTargetTitle = @"个人本月指标";
+        _monthTargetColor = @"ff8a8a";
+    }
+}
+
+- (void)setModel:(ZEStatisticsModel *)model{
+    _model = model;
+}
+
+#pragma mark - 点击事件
+- (void)moreInfoBtnClick{
+    
+}
+
+-(void)editBtnClick{
+    if(self.block){
+        self.block();
+    }
+    
+}
+
+#pragma mark - ZFGenericChartDataSource
+- (NSArray *)valueArrayInGenericChart:(ZFGenericChart *)chart{
+    
+    NSString * target = [NSString stringWithFormat:@"%.2f",[_model.TargetMoney doubleValue]/10000];
+    NSString * deal = [NSString stringWithFormat:@"%.2f",[_model.sumDeal doubleValue]/10000];
+    NSString * payback = [NSString stringWithFormat:@"%.2f",[_model.HuiKuan doubleValue]/10000];
+    return @[target, deal, payback];
+}
+
+- (NSArray *)nameArrayInGenericChart:(ZFGenericChart *)chart{
+    return @[@"指标", @"成交", @"回款"];
+}
+
+- (NSArray *)colorArrayInGenericChart:(ZFGenericChart *)chart{
+    return @[hexColorString(@"fa7373"),hexColorString(@"4fd2c2"),hexColorString(@"ffb228")];
+}
+
+//- (CGFloat)axisLineMaxValueInGenericChart:(ZFGenericChart *)chart{
+//    return 10;
+//}
+
+- (NSInteger)axisLineSectionCountInGenericChart:(ZFGenericChart *)chart{
+    return 5;
+}
+
+@end

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZEServiceRuleViewController">
+            <connections>
+                <outlet property="companyLabel" destination="XYZ-DA-gC1" id="QvM-5Z-64y"/>
+                <outlet property="contenlabel" destination="9wM-JO-Dnw" id="VEf-LQ-jGu"/>
+                <outlet property="headerLabel" destination="4uO-2j-7V9" id="FwU-fb-aKx"/>
+                <outlet property="titleLabel" destination="StI-6r-BeW" id="SJN-eR-jag"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="websiteLabel" destination="ABE-Lg-GAc" id="WzQ-Ls-ra5"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="756" text="造易营销软件服务条款" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="StI-6r-BeW">
+                    <rect key="frame" x="215" y="40" width="170" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="754" text="欢迎使用造易软件营销软件及服务" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4uO-2j-7V9">
+                    <rect key="frame" x="20" y="91" width="255" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="755" text="本软件的全部内容版权及邻接权归成都造易软件有限责任公司所有.未经本公司事前书面同意,任何人不得以任何方式予以任何母的进行使用.否则本公司将保留追究法律责任的权利" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9wM-JO-Dnw">
+                    <rect key="frame" x="20" y="127" width="560" height="61"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--造易软件" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XYZ-DA-gC1">
+                    <rect key="frame" x="506" y="213" width="84" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="mJz-Fn-X3h"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="www.kzowee.com/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABE-Lg-GAc">
+                    <rect key="frame" x="211" y="298" width="179" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="Flf-TR-mes"/>
+                        <constraint firstAttribute="width" constant="179" id="utq-CW-uPF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="StI-6r-BeW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="2Nc-NK-r9j"/>
+                <constraint firstAttribute="trailing" secondItem="XYZ-DA-gC1" secondAttribute="trailing" constant="10" id="DRa-sI-AB5"/>
+                <constraint firstItem="StI-6r-BeW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Hej-2e-qG2"/>
+                <constraint firstItem="9wM-JO-Dnw" firstAttribute="leading" secondItem="4uO-2j-7V9" secondAttribute="leading" id="JK2-4L-jk3"/>
+                <constraint firstItem="9wM-JO-Dnw" firstAttribute="top" secondItem="4uO-2j-7V9" secondAttribute="bottom" constant="15" id="JZZ-tu-nwc"/>
+                <constraint firstItem="4uO-2j-7V9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Lpj-80-75c"/>
+                <constraint firstItem="ABE-Lg-GAc" firstAttribute="top" secondItem="XYZ-DA-gC1" secondAttribute="bottom" constant="65" id="N3K-Tp-p7J"/>
+                <constraint firstItem="4uO-2j-7V9" firstAttribute="top" secondItem="StI-6r-BeW" secondAttribute="bottom" constant="30" id="RMA-TG-piC"/>
+                <constraint firstAttribute="trailing" secondItem="9wM-JO-Dnw" secondAttribute="trailing" constant="20" id="YGl-jh-Ekw"/>
+                <constraint firstItem="XYZ-DA-gC1" firstAttribute="top" secondItem="9wM-JO-Dnw" secondAttribute="bottom" constant="25" id="YJB-Pf-6OB"/>
+                <constraint firstItem="ABE-Lg-GAc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vzX-OP-992"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

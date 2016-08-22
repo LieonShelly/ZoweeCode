@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 247
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers
+END
+IFlyPcmRecorder.h
+K 25
+svn:wc:ra_dav:version-url
+V 265
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlyPcmRecorder.h
+END
+IFlyDataUploader.h
+K 25
+svn:wc:ra_dav:version-url
+V 266
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlyDataUploader.h
+END
+IFlySpeechEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 265
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlySpeechEvent.h
+END
+IFlyVoiceWakeuper.h
+K 25
+svn:wc:ra_dav:version-url
+V 267
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlyVoiceWakeuper.h
+END
+IFlySpeechSynthesizerDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 279
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlySpeechSynthesizerDelegate.h
+END
+IFlySetting.h
+K 25
+svn:wc:ra_dav:version-url
+V 261
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlySetting.h
+END
+IFlySpeechSynthesizer.h
+K 25
+svn:wc:ra_dav:version-url
+V 271
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlySpeechSynthesizer.h
+END
+IFlySpeechError.h
+K 25
+svn:wc:ra_dav:version-url
+V 265
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlySpeechError.h
+END
+IFlySpeechConstant.h
+K 25
+svn:wc:ra_dav:version-url
+V 268
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlySpeechConstant.h
+END
+IFlyMSC.h
+K 25
+svn:wc:ra_dav:version-url
+V 257
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlyMSC.h
+END
+IFlySpeechEvaluatorDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 277
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlySpeechEvaluatorDelegate.h
+END
+IFlyResourceUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 266
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlyResourceUtil.h
+END
+IFlySpeechUnderstander.h
+K 25
+svn:wc:ra_dav:version-url
+V 272
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlySpeechUnderstander.h
+END
+IFlyDebugLog.h
+K 25
+svn:wc:ra_dav:version-url
+V 262
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlyDebugLog.h
+END
+IFlyISVRecognizer.h
+K 25
+svn:wc:ra_dav:version-url
+V 267
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlyISVRecognizer.h
+END
+IFlySpeechEvaluator.h
+K 25
+svn:wc:ra_dav:version-url
+V 269
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlySpeechEvaluator.h
+END
+IFlySpeechRecognizerDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 278
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlySpeechRecognizerDelegate.h
+END
+IFlyContact.h
+K 25
+svn:wc:ra_dav:version-url
+V 261
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlyContact.h
+END
+IFlySpeechUtility.h
+K 25
+svn:wc:ra_dav:version-url
+V 267
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlySpeechUtility.h
+END
+IFlyISVDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 265
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlyISVDelegate.h
+END
+IFlyRecognizerViewDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 276
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlyRecognizerViewDelegate.h
+END
+IFlyUserWords.h
+K 25
+svn:wc:ra_dav:version-url
+V 263
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlyUserWords.h
+END
+IFlySpeechRecognizer.h
+K 25
+svn:wc:ra_dav:version-url
+V 270
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlySpeechRecognizer.h
+END
+IFlyRecognizerView.h
+K 25
+svn:wc:ra_dav:version-url
+V 268
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlyRecognizerView.h
+END
+IFlyTextUnderstander.h
+K 25
+svn:wc:ra_dav:version-url
+V 270
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlyTextUnderstander.h
+END
+IFlyVoiceWakeuperDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 275
+/svn/MobileApplicationDevelopment/!svn/ver/2409/ProjectCode/Ios/%E9%80%A0%E6%98%93%E8%90%A5%E9%94%80/branches/%E7%AC%AC%E4%B8%89%E7%89%88/ZoweeSale/%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3/iflyMSC.framework/Headers/IFlyVoiceWakeuperDelegate.h
+END
